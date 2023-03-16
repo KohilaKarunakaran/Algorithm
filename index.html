@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="sentence">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptates nisi laborum cumque recusandae hic non fugit eum labore quaerat architecto eos iusto nam ab, distinctio quas repellat exercitationem autem.</h1>
+    
+    <script>
+
+        var sentenceNode = document.getElementById("sentence");
+        var sentence = sentenceNode.innerText
+
+        var upperSentence = sentence.toUpperCase();
+        var lowerSentence = sentence.toLowerCase();
+        var firsttencharacters = sentence.substr(10);
+        var allwords = sentence.split(" ");
+        console.log(allwords);
+
+
+    </script>
+</body>
+</html>
